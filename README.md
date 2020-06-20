@@ -17,4 +17,4 @@ The setTimeout function must wait the time that the animation is running.
 
 There are 4 types of animations. Now the names are ```anim1, anim2``` ect...
 
-[Demo here](https://myentrance.net/velpest/gb/demok/buttons/)
+[Demo here](https://codepen.io/Balint_Gacsfalvy/pen/mdVWJwp)
