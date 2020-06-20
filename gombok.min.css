@@ -1,22 +1,22 @@
-html,body{background-color:#1C2331;text-align:center;font-family:'Comfortaa',cursive;height:100%;overflow:hidden;}*{outline:0!important;}.btn-vp{position:relative;font-weight:bold;overflow:hidden;left:50%;margin-left:-100px;display:block;margin-top:30px;border:none;padding:20px;background-color:#0099CC;border-radius:3px;width:200px;height:50px;white-space:nowrap;cursor:pointer;box-shadow:1px 1px 10px#000;transition:box-shadow 0.3s;}.btn-vp:hover{box-shadow:5px 5px 15px#000;}.btn-vp span{font-family:'Comfortaa',cursive;}.btn-vp i{position:absolute;top:10px;left:50%;margin-left:-17px;opacity:0;color:#00C851;}.anim1.anim-fut{pointer-events:none;animation:anim1_gomb_anim 3s 1 ease;}@keyframes anim1_gomb_anim{from{left:50%;margin-left:-100px;width:200px;}
+html,body{background-color:#1C2331;text-align:center;font-family:'Comfortaa',cursive;height:100%;overflow:hidden;}*{outline:0!important;}.btn-vp{position:relative;font-weight:bold;overflow:hidden;left:50%;margin-left:-100px;display:block;margin-top:30px;border:none;padding:20px;background-color:#0099CC;border-radius:3px;width:200px;height:50px;white-space:nowrap;cursor:pointer;box-shadow:1px 1px 10px#000;transition:box-shadow 0.3s;}.btn-vp:hover{box-shadow:5px 5px 15px#000;}.btn-vp span{font-family:'Comfortaa',cursive;}.btn-vp i{position:absolute;top:10px;left:50%;margin-left:-17px;opacity:0;color:#00C851;}.anim1.anim-run{pointer-events:none;animation:anim1_button_anim 3s 1 ease;}@keyframes anim1_button_anim{from{left:50%;margin-left:-100px;width:200px;}
 10%{left:50%;margin-left:-25px;width:50px;border-radius:50%;}
 80%{left:50%;margin-left:-25px;width:50px;border-radius:50%;}
-to{left:50%;margin-left:-100px;width:200px;}}.anim1.anim-fut span{animation:anim1_szoveg_anim 3s 1 ease;}@keyframes anim1_szoveg_anim{from{opacity:1;}
+to{left:50%;margin-left:-100px;width:200px;}}.anim1.anim-run span{animation:anim1_text_anim 3s 1 ease;}@keyframes anim1_text_anim{from{opacity:1;}
 10%{opacity:0;}
 80%{opacity:0;}
-to{opacity:1;}}.anim1.anim-fut i{animation:anim1_i_anim 3s 1 ease;}@keyframes anim1_i_anim{from{opacity:0;}
+to{opacity:1;}}.anim1.anim-run i{animation:anim1_i_anim 3s 1 ease;}@keyframes anim1_i_anim{from{opacity:0;}
 10%{opacity:1;}
 80%{opacity:1;}
-to{opacity:0;}}.anim2.anim-fut{pointer-events:none;animation:anim2_gomb_anim 3s 1 ease;}@keyframes anim2_gomb_anim{from{left:50%;margin-left:-100px;width:200px;transform:rotate(0deg);}
+to{opacity:0;}}.anim2.anim-run{pointer-events:none;animation:anim2_button_anim 3s 1 ease;}@keyframes anim2_button_anim{from{left:50%;margin-left:-100px;width:200px;transform:rotate(0deg);}
 20%{left:50%;margin-left:-25px;width:50px;border-radius:50%;transform:rotate(720deg);}
 80%{left:50%;margin-left:-25px;width:50px;border-radius:50%;transform:rotate(720deg);}
-to{left:50%;margin-left:-100px;width:200px;transform:rotate(0deg);}}.anim2.anim-fut span{animation:anim2_szoveg_anim 3s 1 ease;}@keyframes anim2_szoveg_anim{from{opacity:1;}
+to{left:50%;margin-left:-100px;width:200px;transform:rotate(0deg);}}.anim2.anim-run span{animation:anim2_text_anim 3s 1 ease;}@keyframes anim2_text_anim{from{opacity:1;}
 10%{opacity:0;}
 80%{opacity:0;}
-to{opacity:1;}}.anim2.anim-fut i{animation:anim2_i_anim 3s 1 ease;}@keyframes anim2_i_anim{from{opacity:0;}
+to{opacity:1;}}.anim2.anim-run i{animation:anim2_i_anim 3s 1 ease;}@keyframes anim2_i_anim{from{opacity:0;}
 10%{opacity:1;}
 80%{opacity:1;}
-to{opacity:0;}}.anim3.btn-vp i{color:#ff4444;}.anim3.anim-fut{pointer-events:none;animation:anim3_gomb_anim 1.5s 1 ease;}@keyframes anim3_gomb_anim{from{transform:translateX(-10px,0px);}
+to{opacity:0;}}.anim3.btn-vp i{color:#ff4444;}.anim3.anim-run{pointer-events:none;animation:anim3_button_anim 1.5s 1 ease;}@keyframes anim3_button_anim{from{transform:translateX(-10px,0px);}
 20%{transform:translate(10px,0px);}
 30%{transform:translate(-10px,0px);}
 40%{transform:translate(10px,0px);}
@@ -24,13 +24,13 @@ to{opacity:0;}}.anim3.btn-vp i{color:#ff4444;}.anim3.anim-fut{pointer-events:non
 60%{transform:translate(10px,0px);}
 70%{transform:translate(-10px,0px);}
 80%{transform:translate(10px,0px);}
-to{transform:translate(0px,0px);}}.anim3.anim-fut span{animation:anim3_szoveg_anim 1.5s 1 ease;}@keyframes anim3_szoveg_anim{from{opacity:1;}
+to{transform:translate(0px,0px);}}.anim3.anim-run span{animation:anim3_text_anim 1.5s 1 ease;}@keyframes anim3_text_anim{from{opacity:1;}
 10%{opacity:0;}
 80%{opacity:0;}
-to{opacity:1;}}.anim3.anim-fut i{animation:anim3_i_anim 1.5s 1 ease;}@keyframes anim3_i_anim{from{opacity:0;}
+to{opacity:1;}}.anim3.anim-run i{animation:anim3_i_anim 1.5s 1 ease;}@keyframes anim3_i_anim{from{opacity:0;}
 10%{opacity:1;}
 80%{opacity:1;}
-to{opacity:0;}}.anim4.btn-vp i{color:#ccc;}.anim4.anim-fut{pointer-events:none;animation:anim4_gomb_anim 2s 1 ease;}@keyframes anim4_gomb_anim{from{transform:rotate(0deg)translate(0px);opacity:1;}
+to{opacity:0;}}.anim4.btn-vp i{color:#ccc;}.anim4.anim-run{pointer-events:none;animation:anim4_button_anim 2s 1 ease;}@keyframes anim4_button_anim{from{transform:rotate(0deg)translate(0px);opacity:1;}
 5%{transform:rotate(-45deg)translate(-40px,60px);opacity:1;}
 10%{transform:rotate(-50deg)translate(-45px,60px);opacity:1;}
 15%{transform:rotate(-45deg)translate(-40px,60px);opacity:1;}
@@ -38,10 +38,10 @@ to{opacity:0;}}.anim4.btn-vp i{color:#ccc;}.anim4.anim-fut{pointer-events:none;a
 25%{transform:rotate(-45deg)translate(-40px,60px);opacity:1;}
 35%{opacity:1;}
 60%{opacity:0;transform:rotate(-45deg)translate(-300px,300px);}
-to{opacity:0;transform:rotate(0deg)translate(0px,300px);}}.anim4.anim-fut span{animation:anim4_szoveg_anim 2s 1 ease;}@keyframes anim4_szoveg_anim{from{opacity:1;}
+to{opacity:0;transform:rotate(0deg)translate(0px,300px);}}.anim4.anim-run span{animation:anim4_text_anim 2s 1 ease;}@keyframes anim4_text_anim{from{opacity:1;}
 5%{opacity:0;}
 95%{opacity:0;}
-to{opacity:1;}}.anim4.anim-fut i{animation:anim4_i_anim 2s 1 ease;}@keyframes anim4_i_anim{from{opacity:0;}
+to{opacity:1;}}.anim4.anim-run i{animation:anim4_i_anim 2s 1 ease;}@keyframes anim4_i_anim{from{opacity:0;}
 5%{opacity:1;}
 95%{opacity:1;}
 to{opacity:0;}}

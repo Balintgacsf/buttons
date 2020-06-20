@@ -7,9 +7,9 @@ We can call the animations with:
 ```javascript
 let elem = document.querySelector('.anim1');
 elem.addEventListener('click', function() {
-  elem.classList.toggle("anim-fut");
+  elem.classList.toggle("anim-run");
   setTimeout(function() {
-	  elem.classList.toggle("anim-fut");
+	  elem.classList.toggle("anim-run");
   },3000);
 });
 ```

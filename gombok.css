@@ -41,30 +41,30 @@ html,body {
 	opacity: 0;
 	color: #00C851;
 }
-/* Animacio ANIM 1 */
-/* GOMB */
-.anim1.anim-fut {
+/* ANIMATION ANIM 1 */
+/* BUTTON */
+.anim1.anim-run {
 	pointer-events: none;
-	animation: anim1_gomb_anim 3s 1 ease;
+	animation: anim1_button_anim 3s 1 ease;
 }
-@keyframes anim1_gomb_anim {
+@keyframes anim1_button_anim {
 	from {left: 50%; margin-left: -100px; width: 200px;}
 	10% {left: 50%; margin-left: -25px; width: 50px; border-radius: 50%;}
 	80% {left: 50%; margin-left: -25px; width: 50px; border-radius: 50%;}
 	to {left: 50%; margin-left: -100px; width: 200px;}
 }
-/* SPAN SZOVEG */
-.anim1.anim-fut span {
-	animation: anim1_szoveg_anim 3s 1 ease;
+/* SPAN TEXT */
+.anim1.anim-run span {
+	animation: anim1_text_anim 3s 1 ease;
 }
-@keyframes anim1_szoveg_anim {
+@keyframes anim1_text_anim {
 	from {opacity: 1;}
 	10% {opacity: 0;}
 	80% {opacity: 0;}
 	to {opacity: 1;}
 }
-/* GOMB > I */
-.anim1.anim-fut i {
+/* BUTTON > I */
+.anim1.anim-run i {
 	animation: anim1_i_anim 3s 1 ease;
 }
 @keyframes anim1_i_anim {
@@ -74,30 +74,30 @@ html,body {
 	to {opacity: 0;}
 }
 
-/* Animacio ANIM 2  ********************** */
-/* GOMB */
-.anim2.anim-fut {
+/* ANIMATION ANIM 2  ********************** */
+/* BUTTON */
+.anim2.anim-run {
 	pointer-events: none;
-	animation: anim2_gomb_anim 3s 1 ease;
+	animation: anim2_button_anim 3s 1 ease;
 }
-@keyframes anim2_gomb_anim {
+@keyframes anim2_button_anim {
 	from {left: 50%; margin-left: -100px; width: 200px; transform: rotate(0deg);}
 	20% {left: 50%; margin-left: -25px; width: 50px; border-radius: 50%; transform: rotate(720deg);}
 	80% {left: 50%; margin-left: -25px; width: 50px; border-radius: 50%; transform: rotate(720deg);}
 	to {left: 50%; margin-left: -100px; width: 200px; transform: rotate(0deg);}
 }
-/* SPAN SZOVEG */
-.anim2.anim-fut span {
-	animation: anim2_szoveg_anim 3s 1 ease;
+/* SPAN TEXT */
+.anim2.anim-run span {
+	animation: anim2_text_anim 3s 1 ease;
 }
-@keyframes anim2_szoveg_anim {
+@keyframes anim2_text_anim {
 	from {opacity: 1;}
 	10% {opacity: 0;}
 	80% {opacity: 0;}
 	to {opacity: 1;}
 }
-/* GOMB > I */
-.anim2.anim-fut i {
+/* BUTTON > I */
+.anim2.anim-run i {
 	animation: anim2_i_anim 3s 1 ease;
 }
 @keyframes anim2_i_anim {
@@ -106,16 +106,16 @@ html,body {
 	80% {opacity: 1;}
 	to {opacity: 0;}
 }
-/* Animacio ANIM 3  ********************** */
-/* GOMB */
+/* ANIMATION ANIM 3  ********************** */
+/* BUTTON */
 .anim3.btn-vp i {
 	color: #ff4444;
 }
-.anim3.anim-fut {
+.anim3.anim-run {
 	pointer-events: none;
-	animation: anim3_gomb_anim 1.5s 1 ease;
+	animation: anim3_button_anim 1.5s 1 ease;
 }
-@keyframes anim3_gomb_anim {
+@keyframes anim3_button_anim {
 	from {transform: translateX(-10px, 0px);}
 	20% {transform: translate(10px, 0px);}
 	30% {transform: translate(-10px, 0px);}
@@ -126,18 +126,18 @@ html,body {
 	80% {transform: translate(10px, 0px);}
 	to {transform: translate(0px, 0px);}
 }
-/* SPAN SZOVEG */
-.anim3.anim-fut span {
-	animation: anim3_szoveg_anim 1.5s 1 ease;
+/* SPAN TEXT */
+.anim3.anim-run span {
+	animation: anim3_text_anim 1.5s 1 ease;
 }
-@keyframes anim3_szoveg_anim {
+@keyframes anim3_text_anim {
 	from {opacity: 1;}
 	10% {opacity: 0;}
 	80% {opacity: 0;}
 	to {opacity: 1;}
 }
-/* GOMB > I */
-.anim3.anim-fut i {
+/* button > I */
+.anim3.anim-run i {
 	animation: anim3_i_anim 1.5s 1 ease;
 }
 @keyframes anim3_i_anim {
@@ -147,16 +147,16 @@ html,body {
 	to {opacity: 0;}
 }
 
-/* Animacio ANIM 4  ********************** */
-/* GOMB */
+/* ANIMATION ANIM 4  ********************** */
+/* BUTTON */
 .anim4.btn-vp i {
 	color: #ccc;
 }
-.anim4.anim-fut {
+.anim4.anim-run {
 	pointer-events: none;
-	animation: anim4_gomb_anim 2s 1 ease;
+	animation: anim4_button_anim 2s 1 ease;
 }
-@keyframes anim4_gomb_anim {
+@keyframes anim4_button_anim {
 	from { transform: rotate(0deg) translate(0px); opacity: 1;}
 	5% {transform: rotate(-45deg) translate(-40px, 60px); opacity: 1;}
 	10% {transform: rotate(-50deg) translate(-45px, 60px); opacity: 1;}
@@ -167,18 +167,18 @@ html,body {
 	60% {opacity: 0; transform: rotate(-45deg) translate(-300px, 300px);}
 	to {opacity: 0; transform: rotate(0deg) translate(0px, 300px);}
 }
-/* SPAN SZOVEG */
-.anim4.anim-fut span {
-	animation: anim4_szoveg_anim 2s 1 ease;
+/* SPAN TEXT */
+.anim4.anim-run span {
+	animation: anim4_text_anim 2s 1 ease;
 }
-@keyframes anim4_szoveg_anim {
+@keyframes anim4_text_anim {
 	from {opacity: 1;}
 	5% {opacity: 0;}
 	95% {opacity: 0;}
 	to {opacity: 1;}
 }
-/* GOMB > I */
-.anim4.anim-fut i {
+/* BUTTON > I */
+.anim4.anim-run i {
 	animation: anim4_i_anim 2s 1 ease;
 }
 @keyframes anim4_i_anim {
