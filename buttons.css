@@ -3,7 +3,6 @@ html,body {
 	text-align: center;
 	font-family: 'Comfortaa', cursive;
 	height: 100%;
-	overflow: hidden;
 }
 * {
 	outline: 0 !important;
