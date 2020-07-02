@@ -1,7 +1,6 @@
 html,body {
 	background-color: #1C2331;
 	text-align: center;
-	font-family: 'Comfortaa', cursive;
 	height: 100%;
 }
 * {
@@ -30,7 +29,7 @@ html,body {
 	box-shadow: 5px 5px 15px #000;
 }
 .btn-vp span {
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Alef', sans-serif;
 }
 .btn-vp i {
 	position: absolute;
